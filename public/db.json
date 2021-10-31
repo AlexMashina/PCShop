@@ -1,0 +1,220 @@
+{
+  "catItems": [
+    {
+      "id": 1,
+      "name": "Acer Aspire 7 A715-75G-51FE (Intel Core i5 9300H 240)",
+      "labelName": "Acer",
+      "imageURL": "https://nevateka.ru/upload/iblock/690/1469247_v01_b.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 63300
+    },
+    {
+      "id": 2,
+      "name": "Acer Aspire 5 A514-54-549L (NX.A28ER.004)",
+      "labelName": "Acer",
+      "imageURL": "https://www.everyshop.co.za/media/catalog/product/cache/d1f1f5a23a3b0b9dc069cb1d018b13c5/N/X/NX_A0MEA_006_Front_Angle_b759.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 59990
+    },
+    {
+      "id": 3,
+      "name": "Acer Aspire 1 A114-33-P7VD Silver (NX.A7VER.00A)",
+      "labelName": "Acer",
+      "imageURL": "https://www.stabiz.ru/upload/iblock/004/4xksq4rghx21xh8mzi73r2j8qsb42t0f/noutbuk-acer-aspire-1-a114_33_p7vd-_nx.a7ver.00a_.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 25990
+    },
+    {
+      "id": 4,
+      "name": "Acer Nitro 5 AN515-55-52Y9 (NH.Q7JER.009)",
+      "labelName": "Acer",
+      "imageURL": "https://tehnoteca.ru/img/1898/1897880/acer_nitro_5_an517_52_an517_52_77pr_1.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 79999
+    },
+    {
+      "id": 5,
+      "name": "Acer ConceptD 7 Ezel CC715-91P-X7V8 White",
+      "labelName": "Acer",
+      "imageURL": "https://cdn3.static1-sima-land.com/items/6066289/0/280.jpg?v=1622726470",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 399990
+    },
+    {
+      "id": 6,
+      "name": "Acer Extensa EX215-51-32ET (NX.EFZER.00A)",
+      "labelName": "Acer",
+      "imageURL": "https://skidka-msk.ru/images/prodacts/sourse/99444/99444312_noutbuk-acer-extensa-ex215-31-p4mn-black-nx-efter-00q.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 49498
+    },
+    {
+      "id": 7,
+      "name": "Honor MagicBook 14 2021 (NDR-WFE9HN)",
+      "labelName": "Honor",
+      "imageURL": "https://cdn1.ozone.ru/s3/multimedia-a/6071157034.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 90890
+    },
+    {
+      "id": 8,
+      "name": "Huawei Honor MagicBook Pro Silver (HLYL-WFQ9)",
+      "labelName": "Honor",
+      "imageURL": "https://msk.price-com.ru/pics/pics99/143617_0.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 74990
+    },
+    {
+      "id": 9,
+      "name": "Honor MagicBook 14 512GB (NblL-WDQ9HN)",
+      "labelName": "Honor",
+      "imageURL": "https://tehnoteca.ru/img/1868/1867840/huawei_honor_magicbook_14_2020_nbll_wdq9hn_1.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 49999
+    },
+    {
+      "id": 10,
+      "name": "Huawei Honor Hunter V700 Midnight Black (FRD-WFD9)",
+      "labelName": "Honor",
+      "imageURL": "https://cdn1.ozone.ru/s3/multimedia-k/6084657008.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 99990
+    },
+    {
+      "id": 11,
+      "name": "HONOR MagicBook X15 Grey (53011VNJ)",
+      "labelName": "Honor",
+      "imageURL": "https://matrix43.ru/image/cache/catalog/products/noutbuki_noutbuki_14/p190815_43916541_noutbuk_14_ips_fhd_honor_magicbook_x14_nobelb_wa13-600x600.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 59990
+    },
+    {
+      "id": 12,
+      "name": "Honor MagicBook 15 (BhR-WAP9HNRP)",
+      "labelName": "Honor",
+      "imageURL": "https://pplware.sapo.pt/wp-content/uploads/2020/07/Honor-computer.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 64990
+    },
+    {
+      "id": 13,
+      "name": "ASUS Asus ZenBook 14 ZenBook 14 UX425EA-KI607T",
+      "labelName": "Asus",
+      "imageURL": "https://pplware.sapo.pt/wp-content/uploads/2020/07/Honor-computer.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 73990
+    },
+    {
+      "id": 14,
+      "name": "ASUS VivoBook S13 S333JQ-EG015T (90NB0QS3-M00230)",
+      "labelName": "Asus",
+      "imageURL": "https://tehnoteca.ru/img/1889/1888926/asus_vivobook_s13_s333ja_s333ja_eg008_56.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 69990
+    },
+    {
+      "id": 15,
+      "name": "ASUS VivoBook K543BA-DM757 Gray",
+      "labelName": "Asus",
+      "imageURL": "https://cdn1.ozone.ru/s3/multimedia-m/6005033938.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 43990
+    },
+    {
+      "id": 16,
+      "name": "ASUS R429MA Black (R429MA-EB642T)",
+      "labelName": "Asus",
+      "imageURL": "https://megabo.ru/image/cache/catalog/noutbuki-asus-folder/2/976660885-asus-vivobook-e410ma-eb268-90nb0q11-m18310-black-14-hd-cel-n4020-4gb-256gb-ssd-dos-1000x1000.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 30999
+    },
+    {
+      "id": 17,
+      "name": "ASUS Expertbook P2451FA-BM1357R ",
+      "labelName": "Asus",
+      "imageURL": "https://cdn.alza.cz/Foto/f8/NA/NA670o3.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 89198
+    },
+    {
+      "id": 18,
+      "name": "ASUS TUF Gaming FX706HCB-HX111",
+      "labelName": "Asus",
+      "imageURL": "https://dlcdnwebimgs.asus.com/gain/1387056a-60c6-4579-a3f7-ccf65affd7fa/",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 83690
+    },
+    {
+      "id": 19,
+      "name": " HP 470 G7 (9HP75EA)",
+      "labelName": "HP",
+      "imageURL": "https://www.kns.ru/linkpics/hp-470-g7-1f3k5ea-0-v1.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 56147
+    },
+    {
+      "id": 20,
+      "name": "HP 15s-fq2026ur (40K65EA)",
+      "labelName": "HP",
+      "imageURL": "https://myceneo.ru/image/cache/catalog/li/HP/image-1106-1200x630.jpeg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 51364
+    },
+    {
+      "id": 21,
+      "name": "HP OMEN 15-ek0053ur Black",
+      "labelName": "HP",
+      "imageURL": "https://cdn.kns.ru/linkpics/hp-omen-15-ek0038ur-0-v1.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 124990
+    },
+    {
+      "id": 22,
+      "name": "HP Pavilion Gaming 16-a0045ur Black",
+      "labelName": "HP",
+      "imageURL": "https://cdn1.ozone.ru/s3/multimedia-g/6052131616.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 81747
+    },
+    {
+      "id": 23,
+      "name": "HP Victus 16-e0091ur (4M086EA)",
+      "labelName": "HP",
+      "imageURL": "https://www.notik.ru/img/catalog_img/69197/big/1_hpomen15dc1034ur.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 74998
+    },
+    {
+      "id": 24,
+      "name": "Lenovo IdeaPad S145-15API Black ",
+      "labelName": "Lenovo",
+      "imageURL": "https://tehnoteca.ru/img/2047/2046413/lenovo_yoga_slim_7_pro_14ihu5_s7_14ihu5_82nc000xru_1.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 42990
+    },
+    {
+      "id": 25,
+      "name": "Lenovo Legion 5 Pro 16ACH6 Grey",
+      "labelName": "Lenovo",
+      "imageURL": "https://shop.lenovo.ru/upload/resize_cache/content_webp/799_697_17f5c944b3b71591cc9304fac25365de2/bc7bc888-dd92-11eb-80e8-005056963b6e/0.webp",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 114990
+    },
+    {
+      "id": 26,
+      "name": "Lenovo IdeaPad Gaming 3 15ARH05 Dark Blue",
+      "labelName": "Lenovo",
+      "imageURL": "https://cdn1.ozone.ru/s3/multimedia-5/c1200/6045393881.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 64999
+    },
+    {
+      "id": 27,
+      "name": "Lenovo ThinkPad E14 (20RA002QRT)",
+      "labelName": "Lenovo",
+      "imageURL": "https://img.mvideo.ru/Pdb/1100028322061b.jpg",
+      "description": "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
+      "price": 46757
+    }
+  ]
+}

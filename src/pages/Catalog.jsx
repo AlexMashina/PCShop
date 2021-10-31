@@ -1,47 +1,28 @@
-import React from 'react'
+import axios from 'axios';
+import React from 'react';
+import { useSelector, useDispatch } from "react-redux";
 
-import { CartItem } from "../components";
+import { CartItem, LoadingItem } from "../components";
+import { fetchItems } from "../redux/actions/catalog";
 
-const items = [{
-  id: 1,
-  name: "Acer Aspire 7 A715-75G-51FE (Intel Core i5 9300H 240",
-  labelName: "Acer",
-  imageURL: "https://nevateka.ru/upload/iblock/690/1469247_v01_b.jpg",
-  description: "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
-  price: 63300
-},
-{
-  id: 2,
-  name: "Acer Aspire 7 A715-75G-51FE (Intel Core i5 9300H 240",
-  labelName: "Acer",
-  imageURL: "https://nevateka.ru/upload/iblock/690/1469247_v01_b.jpg",
-  description: "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
-  price: 32200
-},
-{
-  id: 3,
-  name: "Acer Aspire 7 A715-75G-51FE (Intel Core i5 9300H 240",
-  labelName: "Acer",
-  imageURL: "https://nevateka.ru/upload/iblock/690/1469247_v01_b.jpg",
-  description: "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
-  price: 45999
-},
-{
-  id: 4,
-  name: "Acer Aspire 7 A715-75G-51FE  ",
-  labelName: "Acer",
-  imageURL: "https://nevateka.ru/upload/iblock/690/1469247_v01_b.jpg",
-  description: "Игровой ноутбук, видеокарта Geforse 7900rs, 1 ТБ HDD,16гб оперативной памяти,процессор intel core i9",
-  price: 26700
-}
-]
+
 
 function Catalog() {
+  const dispatch = useDispatch();
+  const items = useSelector(({catalog}) => catalog.catItems);
+  const isLoaded = useSelector( ({catalog}) => catalog.isLoaded);
+
+  React.useEffect(() => {
+    dispatch(fetchItems(null))
+  }, [dispatch])
+
   return (
     <section className="catalog">
-      {
-        items && items.map((item, index) => <CartItem key={`${index}_${item.price}`} {...item}/> )
-      }
+       {
+        isLoaded 
+        ? items && items.map((item, index) => <CartItem key={`${index}_${item.price}`} {...item} />)
+        : Array(8).fill(0).map((_, index) => <LoadingItem key={index}/>)
+       }  
     </section>
   )
 }
