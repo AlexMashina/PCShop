@@ -1,6 +1,16 @@
 import React from 'react'
 
-function CartItem({ id, name, imageURL, description, price }) {
+function CartItem({ id, name, imageURL, description, price, onClickAdd }) {
+  const onAddItem = () => {
+    const item = {
+      id,
+      name,
+      imageURL,
+      description,
+      price
+    };
+    onClickAdd(item)
+  }
   return (
     <div className="catalog-cartItem">
       <img src={imageURL} alt="" />
@@ -8,7 +18,7 @@ function CartItem({ id, name, imageURL, description, price }) {
       <p>{description}</p>
       <div className="cartItem-buttons">
         <div className="cartItem-buttons_price">{price} р</div>
-        <div className="cartItem-buttons_curt"><span>В корзину</span></div>
+        <div onClick={onAddItem} className="cartItem-buttons_curt"><span>В корзину</span></div>
       </div>
     </div>
   )

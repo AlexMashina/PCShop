@@ -61,7 +61,7 @@ a {
 
 .activeCategory {
   background-color: rgba(144,	0,	32, 1);
-  color: #fff;
+  color: #fff !important;
 }
 
 .header-category li:hover {
