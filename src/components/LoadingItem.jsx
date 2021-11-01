@@ -9,8 +9,8 @@ function LoadingItem() {
       width={252}
       height={417}
       viewBox="0 0 252 417"
-      backgroundColor="rgba(223, 119, 119, 1)"
-      foregroundColor="#d3abab"
+      backgroundColor="rgba(32, 31, 34, 0.3)"
+      foregroundColor="rgba(255, 255, 255, 1)"
     >
       <rect x="0" y="0" rx="10" ry="10" width="252" height="417" />
     </ContentLoader>

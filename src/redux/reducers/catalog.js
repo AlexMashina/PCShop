@@ -11,6 +11,13 @@ const catalog = ( state = initialState, action ) => {
         catItems: action.payload,
         isLoaded: true
       }
+
+    case "SET_LOADING" :
+      return {
+        ...state,
+        isLoaded: action.payload
+      }
+      
     default:
       return state  
   }

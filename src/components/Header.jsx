@@ -11,17 +11,20 @@ const Header = React.memo(
     const activeCategory = useSelector(({ categories }) => categories.category);
     const totalCount = useSelector(( {cart} ) => cart.cartItems.length)
 
+    const onSelectCategory = React.useCallback(
+      (category) => {
+          dispatch(setCategory(category))
+      },
+      [dispatch],
+    )
 
-    const onSelectCategory = (category) => {
-      dispatch(setCategory(category))
-    }
     return (
       <header className="App-content-header">
         <div className="header-logo"><Link to="/"><span>PC</span>Shop</Link></div>
         <ul className="header-category">
           <li onClick={() => onSelectCategory(null)} className={activeCategory === null ? "activeCategory" : ""}>Все</li>
-          {labelName && labelName.map((category, index) => <Link to="/catalog" >
-            <li onClick={() => { onSelectCategory(category) }} key={`${category}_${index}`}
+          {labelName && labelName.map((category, index) => <Link key={`${category}_${index}`} to="/catalog" >
+            <li onClick={() => { onSelectCategory(category) }} 
               className={activeCategory === category ? "activeCategory" : ""}>{category}</li>
           </Link>)}
         </ul>

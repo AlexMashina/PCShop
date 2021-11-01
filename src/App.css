@@ -19,6 +19,7 @@ a {
   border-radius: 15px;
   z-index: 1;
   overflow: hidden;
+  width: 1083px;
   min-height: 90vh;
 }
 
@@ -97,7 +98,7 @@ a {
 .news-title {
   font-size: 35px;
   position: relative;
-  width: 100%;
+  width: 490px;
 }
 
 .news-title h2 {
