@@ -12,6 +12,7 @@ const CartItem = React.memo(
       };
       onClickAdd(item)
     }
+
     return (
       <div className="catalog-cartItem">
         <img src={imageURL} alt="" />

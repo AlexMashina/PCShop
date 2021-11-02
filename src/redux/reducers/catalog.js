@@ -16,7 +16,7 @@ const catalog = ( state = initialState, action ) => {
       return {
         ...state,
         isLoaded: action.payload
-      }
+      } 
       
     default:
       return state  

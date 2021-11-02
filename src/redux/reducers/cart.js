@@ -6,10 +6,11 @@ const initialState = {
 
 const cart = (state=initialState, action) => {
   switch (action.type) {
-    case "ADD_ITEM" :
+    case "ADD_ITEM" : 
       return {
         ...state,
-        cartItems: [...state.cartItems, action.payload]
+        cartItems: [...state.cartItems, action.payload],
+        totalCount: state.totalCount + 1
       }
 
     default :
