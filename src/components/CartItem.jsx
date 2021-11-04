@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 
 const CartItem = React.memo(
   function CartItem({ id, name, imageURL, description, price, onClickAdd }) {
@@ -19,7 +20,7 @@ const CartItem = React.memo(
         <h4>{name}</h4>
         <p>{description}</p>
         <div className="cartItem-buttons">
-          <div className="cartItem-buttons_price">{price} р</div>
+          <div className="cartItem-buttons_price">{price} ₽</div>
           <div onClick={onAddItem} className="cartItem-buttons_curt"><span>В корзину</span></div>
         </div>
       </div>

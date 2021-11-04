@@ -19,7 +19,7 @@ const Categories = React.memo(
 
     return (
       <ul className="header-category">
-        <li onClick={() => onSelectCategory(null)} className={activeCategory === null ? "activeCategory" : ""}>Все</li>
+        <Link to="/catalog"><li onClick={() => onSelectCategory(null)} className={activeCategory === null ? "activeCategory" : ""}>Все</li></Link>
         {labelName && labelName.map((category, index) => <Link key={`${category}_${index}`} to="/catalog" >
           <li onClick={ () => onSelectCategory(category) }
             className={activeCategory === category ? "activeCategory" : ""}>{category}</li>
