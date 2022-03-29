@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useMemo } from 'react';
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import { setCategory } from "../redux/actions/categories";
@@ -8,7 +8,7 @@ const Categories = React.memo(
   function CategoriesPanel() {
     const dispatch = useDispatch();
     const activeCategory = useSelector(({ categories }) => categories.category);
-    const labelName = ["Asus", "Honor", "HP", "Acer", "Lenovo"];
+    const labelName = useMemo(() => ["Asus", "Honor", "HP", "Acer", "Lenovo"], []);
     
     const onSelectCategory = React.useCallback(
       (category) => {

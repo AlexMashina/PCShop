@@ -1,3 +1,7 @@
+* {
+	box-sizing: border-box;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -8,6 +12,7 @@ a {
   font-size: 18px;
   background-color: rgba(0, 0, 0, 0.1);
   max-width: 100%;
+  min-height: 110%;
   padding: 40px 60px 60px;
 }
 
@@ -16,10 +21,9 @@ a {
   background-color: #fff;
   padding: 30px;
   border-radius: 15px;
-  z-index: 1;
   overflow: hidden;
-  width: 1083px;
-  min-height: 80vh;
+  max-width: 1083px;
+  min-height: 100vh;
   margin: 0 auto;
 }
 
@@ -55,7 +59,8 @@ a {
   color: black;
   border-radius: 20px;
   cursor: pointer;
-  transition: ease 0.3s;
+  -webkit-transition: background-color 0.3s, color 0.3s, transform 0.3s;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
   min-width: 60px;
   text-align: center;
 }
@@ -176,7 +181,6 @@ a {
   transition: ease 0.4s;
   background: rgba( 255, 255, 255, 0.6 );
   box-shadow: 0 8px 32px 0 rgba(32, 31, 34, 0.3);
-  backdrop-filter: blur( 4px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
@@ -210,7 +214,7 @@ a {
 .cartItem-buttons {
   display: flex;
   justify-content: space-between;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 .cartItem-buttons_price {
@@ -271,7 +275,7 @@ a {
   height: 180px;
   border-bottom: 2px solid rgba(144,	0,	32, 0.8);
   padding-bottom: 8px;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
 
 
@@ -388,7 +392,7 @@ a {
   border-radius: 30px;
   border: 2px solid  rgba(144,	0,	32, 1);
   transition: ease 0.4s;
-  width: 80px;
+  width: 135px;
   margin: 0 auto;
 }
 

@@ -7,7 +7,7 @@ export const clearCart = () => ({
   type: "CLEAR_CART"
 })
 
-export const deleteCartItem = (id) => ({
+export const deleteCartItem = (index) => ({
   type: "DELETE_CART_ITEM",
-  payload: id
+  payload: index
 })

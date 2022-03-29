@@ -33,7 +33,7 @@ const cart = (state=initialState, action) => {
     case "DELETE_CART_ITEM" :
       const oldItems = {
         ...state,
-        cartItems: [...state.cartItems].filter((item) => item.id !== action.payload)
+        cartItems: [...state.cartItems].filter((_, index) => index !== action.payload)
       }
 
       return {

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import { CartItemAdded } from "../components";
 import { clearCart, deleteCartItem } from '../redux/actions/cart';
-import cartEmptyImage from "../assets/img/empty_cart.jpg";
+import cartEmptyImage from "../images/empty_cart.jpg";
 
 function Cart() {
   const cartItems = useSelector( ({cart}) => cart.cartItems );
@@ -16,8 +16,8 @@ function Cart() {
     }, [dispatch]
   )
 
-  const cartItemDelete = React.useCallback((id) => {
-    dispatch(deleteCartItem(id))
+  const cartItemDelete = React.useCallback((index) => {
+    dispatch(deleteCartItem(index))
   }, [dispatch]
 
   )
@@ -28,9 +28,11 @@ function Cart() {
         cartItems.length > 0 
         ? < div className = "cartInner" >
             <div className="cartItemsAdded">
-              {cartItems.map((item) => <CartItemAdded clearCart={cartClear}
+              {cartItems.map((item, index) => <CartItemAdded clearCart={cartClear}
                                                       deleteCartItem={cartItemDelete}
-                                                      {...item} />)}
+                                                      {...item}
+                                                      index={index}
+                                                      key={`${item.id}_${index}`} />)}
             </div>
             <div className="cart_totalInfo">
               <div>Покупок {totalCount} шт.</div>

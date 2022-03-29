@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
 
-import  cartImage  from "../assets/img/cart.png";
+import  cartImage  from "../images/cart.png";
 
 
 function CartButton() {

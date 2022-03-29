@@ -1,9 +1,9 @@
 import React from 'react';
 
-import trash from "../assets/img/trash.png";
+import trash from "../images/trash.png";
 
-const CartItemAdded = React.memo(
-  function CartItemAdded({ id, name, imageURL, description, price, deleteCartItem }) {
+
+function CartItemAdded({name, imageURL, description, price, deleteCartItem, index }) {
     return (
       <div className="cartItemAdded">
         <img src={imageURL} alt="" />
@@ -12,12 +12,12 @@ const CartItemAdded = React.memo(
           <p>{description}</p>
           <div className="cartItem_price">{price} ₽</div>
         </div>
-          <div onClick={() => deleteCartItem(id)} className="cartItem_button-delete">
+          <div onClick={() => deleteCartItem(index)} className="cartItem_button-delete">
             <img src={trash} alt="trash" />
         </div>
       </div>
     )
   }
-)
+
 
 export default CartItemAdded

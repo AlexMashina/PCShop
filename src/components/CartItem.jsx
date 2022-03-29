@@ -2,7 +2,7 @@ import React from 'react';
 
 
 const CartItem = React.memo(
-  function CartItem({ id, name, imageURL, description, price, onClickAdd }) {
+  function CartItem({ id, name, imageURL, description, price, onClickAdd, loading }) {
     const onAddItem = () => {
       const item = {
         id,
@@ -16,7 +16,7 @@ const CartItem = React.memo(
 
     return (
       <div className="catalog-cartItem">
-        <img src={imageURL} alt="" />
+        <img src={imageURL} alt="" loading={loading}/>
         <h4>{name}</h4>
         <p>{description}</p>
         <div className="cartItem-buttons">

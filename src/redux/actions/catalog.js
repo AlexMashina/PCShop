@@ -7,8 +7,8 @@ const setLoading = (value) => ({
 
 export const fetchItems = (labelName) => (dispatch) => {
   dispatch(setLoading(false));
-  axios.get(`/catItems?${labelName !== null ? `labelName=${labelName}` : ""}`).then(({ data }) => {
-    dispatch(setItems(data))
+  axios.get(`/catItems?${labelName !== null ? `labelName=${labelName}` : ""}`).then(async ({ data }) => {
+    await dispatch(setItems(data))
   });
 }
 

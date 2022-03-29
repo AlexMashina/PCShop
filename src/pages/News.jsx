@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 
-import news_pc from "../assets/img/news_pc.jpg";
+import news_pc from "../images/news_pc.jpg";
 
 const News = React.memo(
   function News() {
@@ -13,7 +13,7 @@ const News = React.memo(
               По лучшим скидкам<span>!</span>
             </h2>
             <p className="news-description">Ноутбук <span>Acer Predator Helios</span>, 15.6", IPS, Intel Core i7 11800H 2.3ГГц, 16ГБ, 1ТБ SSD, NVIDIA GeForce RTX 3050 Ti для ноутбуков - 4096 Мб, Windows 10, NH.QC5ER.002, черный</p>
-            <a href>Подробнее</a>
+            <a href="true">Подробнее</a>
           </div>
           <img className="news-pc" src={news_pc} alt="Картинка ноутбука" />
         </div>
